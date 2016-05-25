@@ -18,21 +18,6 @@
     <script>
         var landor = window.landor || {};
         landor.svgSupport = document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0;
-//        try {
-//            var mod = "landorStorage";
-//            localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0
-//        } catch (e) {
-//            landor.localstorage = !1
-//        }
-//        if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () {
-//                    var a = document.documentElement,
-//                            b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage");
-//                    a.className = a.className.replace(/\bno-js\b/, b)
-//                }(), window.location.hash && window.location.href.indexOf("#!") > -1) {
-//            url = "";
-//            var urlArray = window.location.hash.split("/");
-//            "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url
-//        }
     </script>
     <title>Hatbrand</title>
     <!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -52,43 +37,6 @@
     <meta name="twitter:title" content="瀚浩堂"/>
     <meta name="twitter:domain" content="Hatbrand"/>
 
-    <!-- / Yoast SEO plugin. -->
-    <script type="text/javascript">
-//        window._wpemojiSettings = {
-//            "baseUrl": "http:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
-//            "ext": ".png",
-//            "source": {
-//                "concatemoji": "http:\/\/landor.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"
-//            }
-//        };
-//        !
-//                function (a, b, c) {
-//                    function d(a) {
-//                        var c, d = b.createElement("canvas"),
-//                                e = d.getContext && d.getContext("2d");
-//                        return e && e.fillText ? (e.textBaseline = "top", e.font = "600 32px Arial", "flag" === a ? (e.fillText(String.fromCharCode(55356, 56806, 55356, 56826), 0, 0), d.toDataURL().length > 3e3) : "diversity" === a ? (e.fillText(String.fromCharCode(55356, 57221), 0, 0), c = e.getImageData(16, 16, 1, 1).data.toString(), e.fillText(String.fromCharCode(55356, 57221, 55356, 57343), 0, 0), c !== e.getImageData(16, 16, 1, 1).data.toString()) : ("simple" === a ? e.fillText(String.fromCharCode(55357, 56835), 0, 0) : e.fillText(String.fromCharCode(55356, 57135), 0, 0), 0 !== e.getImageData(16, 16, 1, 1).data[0])) : !1
-//                    }
-//
-//                    function e(a) {
-//                        var c = b.createElement("script");
-//                        c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
-//                    }
-//
-//                    var f, g;
-//                    c.supports = {
-//                        simple: d("simple"),
-//                        flag: d("flag"),
-//                        unicode8: d("unicode8"),
-//                        diversity: d("diversity")
-//                    }, c.DOMReady = !1, c.readyCallback = function () {
-//                        c.DOMReady = !0
-//                    }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function () {
-//                        c.readyCallback()
-//                    }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () {
-//                        "complete" === b.readyState && c.readyCallback()
-//                    })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
-//                }(window, document, window._wpemojiSettings);
-    </script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -206,8 +154,8 @@
                                                data-img="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ivies/navigateOne.png?w=184&h=123&fit=crop&auto=format">赛威驰</a>
                                         </li>
 
-                                        <li><a href="work/citroen.htm"
-                                               data-img="http://landor-prod.imgix.net/app/uploads/2015/08/27135714/Citroen-1.jpg?w=184&h=123&fit=crop&auto=format">雪铁龙</a>
+                                        <li><a href="work/ditel.htm"
+                                               data-img="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ditel/navigateOne.jpg?w=184&h=123&fit=crop&auto=format">迪泰</a>
                                         </li>
                                         <li><a href="work/garuda.htm"
                                                data-img="http://landor-prod.imgix.net/app/uploads/2015/08/28210432/Garuda-e1441140636876.jpg?w=184&h=123&fit=crop&auto=format">印尼鹰航</a>
@@ -261,7 +209,7 @@
             </div>
             <div class="home-listing__images">
                 <a href="work/taj-group.htm"><img
-                        src="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ivies/indexCaseOne.png?w=660&h=434&fit=crop&auto=format&dpr=2"
+                        src="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ivies/index01.png?w=660&h=434&fit=crop&auto=format&dpr=2"
                         alt="紧贴印度市场变革的三大品牌"></a>
                 <a href="work/taj-group.htm"><img
                         src="http://landor-prod.imgix.net/app/uploads/2015/09/01232159/Vivanta_101-e1441411155344.jpg?w=660&h=434&fit=crop&auto=format&dpr=2"
@@ -277,19 +225,19 @@
                 <div class="home-listing__main-inner">
                     <a href="work.htm" class="home-listing__meta">成功案例</a>
 
-                    <h2 class="home-listing__title"><a href="work/citroen.htm"
-                            >汽车典范，重归显赫</a></h2>
-                    <a href="work/citroen.htm" class="home-listing__client">Citroën </a></div>
+                    <h2 class="home-listing__title"><a href="work/ditel.htm"
+                    >汽车典范，重归显赫</a></h2>
+                    <a href="work/ditel.htm" class="home-listing__client">Citroën </a></div>
             </div>
             <div class="home-listing__images">
-                <a href="work/citroen.htm"><img
-                        src="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ivies/indexCaseOne.png?w=660&h=434&fit=crop&auto=format&dpr=2"
+                <a href="work/ditel.htm"><img
+                        src="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ditel/index01.jpg?w=660&h=434&fit=crop&auto=format&dpr=2"
                         alt="汽车典范，重归显赫"></a>
-                <a href="work/citroen.htm"><img
-                        src="http://landor-prod.imgix.net/app/uploads/2015/09/01221904/Citroen_187.jpg?w=660&h=434&fit=crop&auto=format&dpr=2"
+                <a href="work/ditel.htm"><img
+                        src="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ditel/index02.jpg?w=660&h=434&fit=crop&auto=format&dpr=2"
                         alt="汽车典范，重归显赫"></a>
-                <a href="work/citroen.htm"><img
-                        src="http://landor-prod.imgix.net/app/uploads/2015/09/01221904/20_ds_7-e1441155507129.jpg?w=660&h=434&fit=crop&auto=format&dpr=2"
+                <a href="work/ditel.htm"><img
+                        src="http://www.hatbrand.cn/hatbrand/zh-hans/img/case/ditel/index03.jpg?w=660&h=434&fit=crop&auto=format&dpr=2"
                         alt="汽车典范，重归显赫"></a>
             </div>
             <div class="home-listing__guide"></div>
@@ -365,38 +313,38 @@
 <script type='text/javascript'>
     /* <![CDATA[ */
     /*
-    var hero_images = [{
-        "key": 191,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Barclays-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Barclays-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Barclays-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 193,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Blink-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Blink-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Blink-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 197,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Citroen-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Citroen-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Citroen-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 199,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/CPC-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/CPC-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/CPC-2-e1441239838142.jpg?w=1200&auto=format"]
-    }, {
-        "key": 201,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Etihad-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Etihad-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Etihad-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 203,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Garuda-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Garuda-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Garuda-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 207,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Intu-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Intu-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Intu-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 6603,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Less-1-copy-3.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Less-1-copy-3.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Less-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 211,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Melbourne-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Melbourne-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Melbourne-2.jpg?w=1200&auto=format"]
-    }, {
-        "key": 215,
-        "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Tangram-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Tangram-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Tangram-2.jpg?w=1200&auto=format"]
-    }];
-    */
+     var hero_images = [{
+     "key": 191,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Barclays-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Barclays-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Barclays-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 193,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Blink-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Blink-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Blink-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 197,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Citroen-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Citroen-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Citroen-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 199,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/CPC-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/CPC-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/CPC-2-e1441239838142.jpg?w=1200&auto=format"]
+     }, {
+     "key": 201,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Etihad-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Etihad-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Etihad-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 203,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Garuda-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Garuda-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Garuda-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 207,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Intu-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Intu-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Intu-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 6603,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Less-1-copy-3.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Less-1-copy-3.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Less-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 211,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Melbourne-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Melbourne-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Melbourne-2.jpg?w=1200&auto=format"]
+     }, {
+     "key": 215,
+     "images": ["http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Tangram-1.jpg?w=1200&sat=-100&blend=FED100&bm=multiply&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Tangram-1.jpg?w=1200&auto=format", "http:\/\/landor-prod.imgix.net\/app\/uploads\/2015\/08\/27135714\/Tangram-2.jpg?w=1200&auto=format"]
+     }];
+     */
     /* ]]> */
 
     var hero_images = [{
@@ -412,18 +360,18 @@
 <!--<img src="../app/themes/landor/assets/images/logo.png" alt="Hatbrand Logo" class="print-logo" data-imgix-ignore/>-->
 <!--<img src="../../landorassociates.com/pixel/index.htm" width="1" height="1" alt=""/>-->
 <!--<script type="text/javascript">-->
-    <!--window.NREUM || (NREUM = {});-->
-    <!--NREUM.info = {-->
-        <!--"beacon": "http://landor.com/zh-hans/bam.nr-data.net",-->
-        <!--"licenseKey": "bd288e9dc4",-->
-        <!--"applicationID": "9154568",-->
-        <!--"transactionName": "YgFVZBNTDxBTUkELWFtLdlMVWw4NHVlaD1I=",-->
-        <!--"queueTime": 0,-->
-        <!--"applicationTime": 692,-->
-        <!--"atts": "TkZWEltJHB4=",-->
-        <!--"errorBeacon": "http://landor.com/zh-hans/bam.nr-data.net",-->
-        <!--"agent": ""-->
-    <!--}-->
+<!--window.NREUM || (NREUM = {});-->
+<!--NREUM.info = {-->
+<!--"beacon": "http://landor.com/zh-hans/bam.nr-data.net",-->
+<!--"licenseKey": "bd288e9dc4",-->
+<!--"applicationID": "9154568",-->
+<!--"transactionName": "YgFVZBNTDxBTUkELWFtLdlMVWw4NHVlaD1I=",-->
+<!--"queueTime": 0,-->
+<!--"applicationTime": 692,-->
+<!--"atts": "TkZWEltJHB4=",-->
+<!--"errorBeacon": "http://landor.com/zh-hans/bam.nr-data.net",-->
+<!--"agent": ""-->
+<!--}-->
 <!--</script>-->
 
 </body>
