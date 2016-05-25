@@ -1797,7 +1797,7 @@ html.no-svg .page-header--white .logo__klamath {
 }
 
 html.no-svg .page-sub-footer__klamath {
-    background-image: url("../images/klamath-classic.png")
+    /*background-image: url("../images/klamath-classic.png")*/
 }
 
 .page-sub-footer__klamath.klamath--brush {
@@ -1807,27 +1807,27 @@ html.no-svg .page-sub-footer__klamath {
 }
 
 html.no-svg .page-sub-footer__klamath.klamath--brush {
-    background-image: url("../images/klamath-brush.png")
+    /*background-image: url("../images/klamath-brush.png")*/
 }
 
 .page-sub-footer__klamath.klamath--charcoal {
-    background-image: url("../images/klamath-charcoal.svg");
+    /*background-image: url("../images/klamath-charcoal.svg");*/
     background-size: contain;
     background-repeat: no-repeat
 }
 
 html.no-svg .page-sub-footer__klamath.klamath--charcoal {
-    background-image: url("../images/klamath-charcoal.png")
+    /*background-image: url("../images/klamath-charcoal.png")*/
 }
 
 .page-sub-footer__klamath.klamath--pixel {
-    background-image: url("../images/klamath-pixel.svg");
+    /*background-image: url("../images/klamath-pixel.svg");*/
     background-size: contain;
     background-repeat: no-repeat
 }
 
 html.no-svg .page-sub-footer__klamath.klamath--pixel {
-    background-image: url("../images/klamath-pixel.png")
+    /*background-image: url("../images/klamath-pixel.png")*/
 }
 
 .page-sub-footer__klamath.klamath--precise {
@@ -1837,7 +1837,7 @@ html.no-svg .page-sub-footer__klamath.klamath--pixel {
 }
 
 html.no-svg .page-sub-footer__klamath.klamath--precise {
-    background-image: url("../images/klamath-precise.png")
+    /*background-image: url("../images/klamath-precise.png")*/
 }
 
 .page-sub-footer__klamath.klamath--scribble {
@@ -1861,13 +1861,13 @@ html.no-svg .page-sub-footer__klamath.klamath--script {
 }
 
 .page-sub-footer__klamath.klamath--stamp {
-    background-image: url("../images/klamath-stamp.svg");
+    /*background-image: url("../images/klamath-stamp.svg");*/
     background-size: contain;
     background-repeat: no-repeat
 }
 
 html.no-svg .page-sub-footer__klamath.klamath--stamp {
-    background-image: url("../images/klamath-stamp.png")
+    /*background-image: url("../images/klamath-stamp.png")*/
 }
 
 @media (min-width: 480px) {
@@ -6333,7 +6333,7 @@ html.no-svg .home-listing .home-listing__client:focus:after {
         background-size: auto
     }
     html.no-svg .home-listing__item--about .home-listing__main-inner {
-        background-image: url("../images/klamath-cropped.png")
+        /*background-image: url("../images/klamath-cropped.png")*/
     }
 }
 
